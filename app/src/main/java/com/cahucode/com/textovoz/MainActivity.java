@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         if (respuesta.equals("")){
-            Toast.makeText(this, "No existe una coincidencia, pruebe con preguntas como: Hola o información", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "No existe una coincidencia, pruebe con preguntas como: Hola o información", Toast.LENGTH_SHORT).show();
         } else {
            txtIn.setText(pregunta);
            txtOut.setText(respuesta);
